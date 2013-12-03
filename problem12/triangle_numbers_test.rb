@@ -22,6 +22,6 @@ class TriangleNumbersTest < Minitest::Test
       num_divisors = TriangleNumbers.new(i).num_divisors
     end
 
-    assert_equal 76576500, TriangleNumbers.new(i).triangle_number
+    assert_equal 0, TriangleNumbers.new(i).triangle_number
   end
 end
